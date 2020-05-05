@@ -1,0 +1,32 @@
+{
+  "name": "tania-fordwalker",
+  "contriburors": [
+    {
+      "name": "Tim Heap",
+      "email": "tim@takeflight.com.au"
+    },
+    {
+      "name": "Tania Fordwalker",
+      "email": "tania@forwalker.com.au"
+    }
+  ],
+  "repository": "https:/github.com/timheap/tania-fordwalker",
+  "version": "1.0.0",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1"
+  },
+  "scripts": {
+    "start": "yarn run watch",
+    "watch": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "private": true,
+  "main": "index.js",
+  "author": "Tim Heap <tim@timheap.me>",
+  "license": "MIT"
+}
